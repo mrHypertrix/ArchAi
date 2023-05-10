@@ -32,7 +32,7 @@ async def is_admins(chat_id: int):
     ]
 
 @client.on_message(
-    filters.command("repo", prefixes=["/", ".", "?", "-"])
+    filters.command("rrrrrrepo", prefixes=["/", ".", "?", "-"])
     & ~filters.private)
 async def chatbot(client, message):
     await message.delete()
@@ -61,7 +61,7 @@ IF HAVE ANY QUESTION THEN CONTACT » TO » MY » [OWNER] @Unknown_hu_m""",
 
 
 @client.on_message(
-    filters.command("alive", prefixes=["/", ".", "?", "-"])
+    filters.command("aaaaaaaalive", prefixes=["/", ".", "?", "-"])
     & ~filters.private)
 async def start(client, message):
     await message.reply_text(f"**ʜᴇʟʟᴏ ᴋᴇsᴏ ʜᴏ sᴀʙ**")
