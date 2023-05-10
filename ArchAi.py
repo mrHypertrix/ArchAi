@@ -106,10 +106,10 @@ async def chatboton(client, message):
             )
     is_arch = arch.find_one({"chat_id": message.chat.id})
     if not is_arch:           
-        await message.reply_text(f"ᴄʜᴀᴛʙɪᴛ ɪs ᴀʟʀᴇᴀᴅʏ ᴇɴᴀʙʟᴇᴅ")
+        await message.reply_text(f"ᴄʜᴀᴛʙᴏᴛ ɪs ᴀʟʀᴇᴀᴅʏ ᴇɴᴀʙʟᴇᴅ")
     if is_arch:
         arch.delete_one({"chat_id": message.chat.id})
-        await message.reply_text(f"ᴄʜᴀᴛʙɪᴛ ɪs ᴇɴᴀʙʟᴇᴅ ʙʏ {message.from_user.mention()} ғᴏʀ ᴜsᴇʀs ɪɴ {message.chat.title}")
+        await message.reply_text(f"ᴄʜᴀᴛʙᴏᴛ ɪs ᴇɴᴀʙʟᴇᴅ ʙʏ {message.from_user.mention()} ғᴏʀ ᴜsᴇʀs ɪɴ {message.chat.title}")
     
 
 @client.on_message(
