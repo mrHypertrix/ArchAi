@@ -16,10 +16,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
-SESSION_NAME = getenv("SESSION_NAME", None)
-MONGO_URL = getenv("MONGO_URL", None)
+API_ID = int(getenv("API_ID", "24687632"))
+API_HASH = getenv("API_HASH", "c03f98b539f12de719326eecd840f86a")
+SESSION_NAME = getenv("SESSION_NAME", " AQBqxWfNHZh21nOEAGySs_ceE1_LeRESPNMljqWskAXSxJZXhUPQKJAhkNo3ThmiUnomuiO7rfkC_zqS2qosbeVH7ZK6TIGeywoA1C4xg7eiU9C7N8azan1m3NDfLzl1JGqNv9O5rRRi7_YUt85XSH4flhZxHuBv_aKUqTFCSt5efRdhKGopu7bjfRZriNn1gaME3ejOSQ7AAg_HrgZ2ul54NxeoRXccHv-cXEiF1kkYRUg0MwPTJHsEMdxx0n_bWHbOQkF9J3E7wA2XhpMSj7eBaEb4WWcpS_uoGZqdk_aQwpZUHmB1hTjnqadoGErXH3P_Y0tiKuzFpGFrAvESoqkJAAAAAVc0DlAA")
+MONGO_URL = getenv("MONGO_URL", "mongodb+srv://acha:acha@cluster0.pjq3j.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 
 client = Client(SESSION_NAME, API_ID, API_HASH)
 
