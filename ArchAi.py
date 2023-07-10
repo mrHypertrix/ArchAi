@@ -18,7 +18,7 @@ load_dotenv()
 
 API_ID = int(getenv("API_ID", "24687632"))
 API_HASH = getenv("API_HASH", "c03f98b539f12de719326eecd840f86a")
-SESSION_NAME = getenv("SESSION_NAME", "AQBqxWfNHZh21nOEAGySs_ceE1_LeRESPNMljqWskAXSxJZXhUPQKJAhkNo3ThmiUnomuiO7rfkC_zqS2qosbeVH7ZK6TIGeywoA1C4xg7eiU9C7N8azan1m3NDfLzl1JGqNv9O5rRRi7_YUt85XSH4flhZxHuBv_aKUqTFCSt5efRdhKGopu7bjfRZriNn1gaME3ejOSQ7AAg_HrgZ2ul54NxeoRXccHv-cXEiF1kkYRUg0MwPTJHsEMdxx0n_bWHbOQkF9J3E7wA2XhpMSj7eBaEb4WWcpS_uoGZqdk_aQwpZUHmB1hTjnqadoGErXH3P_Y0tiKuzFpGFrAvESoqkJAAAAAVc0DlAA")
+SESSION_NAME = getenv("SESSION_NAME", "BQB1-rg0gOz9NfbCaYf9CP0BhRZRBulWU-naiAEUQAf358FQxx3gY1s3hUBwMx-br6OObzd0HYaA9Tcoso1TcCVa33U9HNGTsxaISQNDrg7ht0Fkxw3g273pmURkFmJeM3oaqVVCDODroHn88jAnyffBKLSqcUy_WJA1Oi-tblFVzITY_Z_Vc9TNmboIFMcrh6Db_i_SE2pY8duhC5aRtn0ep-4pU-Yw7DrNz47zr1203iK31kJRoQBhy3gvPdZY2L35j0_ZgXCqfnRaGZCoF26kFOOXZWKYzq3ShO65CW4yyAwAGRYoOyEl9I-GE8X2pmM1xYHFXN22mXYogW8UVRDuAAAAAXYpgUoA")
 MONGO_URL = getenv("MONGO_URL", "mongodb+srv://acha:acha@cluster0.pjq3j.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 
 client = Client(SESSION_NAME, API_ID, API_HASH)
